@@ -15,7 +15,7 @@ body{
 
 #body-background-lavender{
     background-color: #191010;
-    background-image: url('img/background-1920.png');
+    background-image: url('img/background/bg-lavender-1920.png');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -25,7 +25,7 @@ body{
 @media (max-width: 768px){
     #body-background-lavender{
         background-color: #191010;
-        background-image: url('img/background-768.png');
+        background-image: url('img/background/bg-lavender-768.png');
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: 100% 100%;
@@ -33,7 +33,16 @@ body{
     }
 }
 
-
+@media (max-width: 480px){
+    #body-background-lavender{
+        background-color: #191010;
+        background-image: url('img/background/bg-lavender-390.png');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center;
+    }
+}
 
 #body-background-mauve{
     background-color: #191010;
@@ -225,7 +234,7 @@ button{
 
 @media (max-width: 768px){
     #navbar-bar{
-        background-color: rgba(255, 243, 243, 0.1);
+        background-color: rgba(255, 243, 243, 0.05);
         backdrop-filter: blur(8px);
         -webkit-backdrop-filter: blur(8px);
 
@@ -257,7 +266,27 @@ button{
     gap: 0.5rem;
 }
 
-@media (min-width: 768px){
+#bodybox-headpage{
+    height: 100vh;
+    display: flex;
+    flex-direction: column-reverse;
+
+    background-image: url(img/3d-logo.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-blend-mode: screen;
+}
+
+#bodybox-headline{
+    width: 50%;
+    margin: 0 0 5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+@media (max-width: 1280px){
     #bodybox-headpage{
         height: 100vh;
         display: flex;
@@ -271,30 +300,8 @@ button{
     }
 
     #bodybox-headline{
-        width: 50%;
-        margin: 0 0 5rem 2rem;
-        display: flex;
-        flex-direction: column;
-        gap: 1.5rem;
-    }
-}
-
-@media (max-width: 768px){
-    #bodybox-headpage{
-        height: 100vh;
-        display: flex;
-        flex-direction: column-reverse;
-
-        /*
-        background-image: url(img/3d-logo.png);
-        background-size: 120% auto;
-        background-repeat: no-repeat;
-        background-position: top;
-        background-blend-mode: screen;*/
-    } 
-    
-    #bodybox-headline{
-        margin: 0 2rem 5rem;
+        width: auto;
+        margin: 0 3rem 5rem 2rem;
         display: flex;
         flex-direction: column;
         gap: 1.5rem;
@@ -307,20 +314,19 @@ button{
 
 @media (max-width: 480px){
     #bodybox-headpage{
-        height: 100vh;
+        height: 95vh;
         display: flex;
         flex-direction: column-reverse;
 
-        /*
         background-image: url(img/3d-logo.png);
         background-size: 140% auto;
         background-repeat: no-repeat;
         background-position: top;
-        background-blend-mode: screen;*/
+        background-blend-mode: screen;
     } 
 
     #bodybox-headline{
-        margin: 0 1rem 3rem;
+        margin: 0 1rem 5rem;
         display: flex;
         flex-direction: column;
         gap: 1.5rem;
