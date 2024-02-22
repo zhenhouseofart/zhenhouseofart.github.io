@@ -285,11 +285,12 @@ button{
         display: flex;
         flex-direction: column-reverse;
 
+        /*
         background-image: url(img/3d-logo.png);
         background-size: 120% auto;
         background-repeat: no-repeat;
         background-position: top;
-        background-blend-mode: screen;
+        background-blend-mode: screen;*/
     } 
     
     #bodybox-headline{
@@ -310,11 +311,12 @@ button{
         display: flex;
         flex-direction: column-reverse;
 
+        /*
         background-image: url(img/3d-logo.png);
         background-size: 140% auto;
         background-repeat: no-repeat;
         background-position: top;
-        background-blend-mode: screen;
+        background-blend-mode: screen;*/
     } 
 
     #bodybox-headline{
