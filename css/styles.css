@@ -304,7 +304,7 @@ button{
     }
 }
 
-@media (max-width: 390px){
+@media (max-width: 480px){
     #bodybox-headpage{
         height: 100vh;
         display: flex;
@@ -441,7 +441,7 @@ button{
     }
 }
 
-@media (max-width: 390px){    
+@media (max-width: 480px){    
     .works-section-card{
         width: 16rem;
         height: 20rem;
@@ -536,7 +536,7 @@ button{
     }
 }
 
-@media (max-width: 390px){
+@media (max-width: 480px){
     .gallery-top{
         display: grid;
         grid-template-columns: 1fr;
@@ -695,7 +695,7 @@ button{
     }
 }
 
-@media (max-width: 390px){
+@media (max-width: 480px){
     #bodybox-project{
         padding: 2rem 1rem;
         display: grid;
