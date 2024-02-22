@@ -224,8 +224,9 @@ button{
 
 @media (max-width: 768px){
     #navbar-bar{
-        background-color: rgba(255, 243, 243, 0.05);
+        background-color: rgba(255, 243, 243, 0.1);
         backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
 
         border-bottom: 1px solid rgba(255, 243, 243, 0.05);
 
