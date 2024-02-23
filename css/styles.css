@@ -754,16 +754,16 @@ button{
     }
 }
 
-    #next-project-box{
-        padding: 4rem 0;
-        background-color: rgba(255, 243, 243, 0.05);
-    
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    
-        gap: 1rem;
-    }
+#next-project-box{
+    padding: 4rem 0;
+    background-color: rgba(255, 243, 243, 0.05);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 1rem;
+}
 
 #next-project-box:hover{
     background-color: rgba(255, 243, 243, 0.1);
@@ -773,21 +773,9 @@ button{
     filter: drop-shadow(0 0 1rem rgba(178, 111, 246, 0.5));
 }
 
-/* Footer */
-#footer{
-    text-align: center;
-    padding: 1rem 0 1.5rem;
-}
-
-@media (min-width: 480px){
-    .footer-text{
-        display: inline;
-    }
-}
-
-.bottom-background{
+#next-project-background{
     padding: 2rem 0 0;
-
+    
     background-color: #191010;
     background-image: url('img/background/bg-lavender-1920.png');
     background-attachment: fixed;
@@ -801,15 +789,15 @@ button{
 }
 
 @media (max-width: 768px){
-    .bottom-background{
+    #next-project-background{
         padding: 2rem 0 0;
-
+        
         background-color: #191010;
         background-image: url('img/background/bg-lavender-768.png');
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-position: bottom;
-
+    
         -webkit-background-size: 100vw 100vh;
         -moz-background-size: 100vw 100vh;
         -o-background-size: 100vw 100vh;
@@ -818,7 +806,7 @@ button{
 }
 
 @media (max-width: 480px){
-    .bottom-background{
+    #next-project-background{
         padding: 2rem 0 0;
         
         background-color: #191010;
@@ -826,10 +814,22 @@ button{
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-position: bottom;
-
+    
         -webkit-background-size: 100vw 100vh;
         -moz-background-size: 100vw 100vh;
         -o-background-size: 100vw 100vh;
         background-size: 100vw 100vh;
+    }
+}
+
+/* Footer */
+#footer{
+    text-align: center;
+    padding: 1rem 0 1.5rem;
+}
+
+@media (min-width: 480px){
+    .footer-text{
+        display: inline;
     }
 }
