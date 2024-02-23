@@ -29,7 +29,7 @@ body{
 @media (max-width: 768px){
     #body-background-lavender{
         background-color: #191010;
-        background-image: url('img/background/bg-lavender-390.png');
+        background-image: url('img/test-image.png');
         background-attachment: scroll;
         background-repeat: no-repeat;
         background-position: center;
