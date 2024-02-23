@@ -49,10 +49,10 @@ body{
         background-repeat: no-repeat;
         background-position: top;
 
-        -webkit-background-size: 100vw 100vh;
-        -moz-background-size: 100vw 100vh;
-        -o-background-size: 100vw 100vh;
-        background-size: 100vw 100vh;
+        -webkit-background-size: 100vw 110vh;
+        -moz-background-size: 100vw 110vh;
+        -o-background-size: 100vw 110vh;
+        background-size: 100vw 110vh;
     }
 }
 
@@ -365,7 +365,7 @@ button{
 
 /* Works */
 #bodybox-works{
-    background-color: #191010;
+    background-color: #251919;
     padding: 4rem;
     display: flex;
     flex-direction: column;
@@ -401,7 +401,7 @@ button{
         height: 40rem;
 
         padding: 3rem 2rem;
-        border: 2px solid #191010;
+        border: 2px solid #251919;
         border-radius: 1.5rem;
     
         display: flex;
@@ -430,7 +430,7 @@ button{
         height: 25rem;
 
         padding: 2rem 2rem;
-        border: 2px solid #191010;
+        border: 2px solid #251919;
         border-radius: 1.5rem;
     
         display: flex;
@@ -455,7 +455,7 @@ button{
         height: 25rem;
 
         padding: 2rem 2rem;
-        border: 2px solid #191010;
+        border: 2px solid #251919;
         border-radius: 1.5rem;
     
         display: flex;
@@ -474,7 +474,7 @@ button{
         height: 20rem;
 
         padding: 2rem 2rem;
-        border: 2px solid #191010;
+        border: 2px solid #251919;
         border-radius: 1.5rem;
     
         display: flex;
