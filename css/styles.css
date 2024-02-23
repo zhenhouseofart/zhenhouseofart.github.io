@@ -13,19 +13,13 @@ body{
     margin: 0;
 }
 
-@media (max-width: 480px){
-    body{
-        width: 100vw;
-        height: 100vh;
-    }
-}
-
 #body-background-lavender{
     background-color: #191010;
     background-image: url('img/background/bg-lavender-1920.png');
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+        background-size: cover;
+        -webkit-background-size: cover;
     background-position: center;
 }
 
@@ -35,7 +29,8 @@ body{
         background-image: url('img/background/bg-lavender-768.png');
         background-attachment: fixed;
         background-repeat: no-repeat;
-        background-size: 100% 100%;
+        background-size: cover;
+        -webkit-background-size: cover;
         background-position: center;
     }
 }
@@ -46,7 +41,8 @@ body{
         background-image: url('img/background/bg-lavender-390.png');
         background-attachment: fixed;
         background-repeat: no-repeat;
-        background-size: 100% 100%;
+        background-size: cover;
+        -webkit-background-size: cover;
         background-position: center;
     }
 }
