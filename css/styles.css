@@ -30,7 +30,7 @@ body{
     #body-background-lavender{
         background-color: #191010;
         background-image: url('img/background/bg-lavender-768.png');
-        background-attachment: fixed;
+        background-attachment: scroll;
         background-repeat: no-repeat;
         background-position: top;
 
@@ -45,7 +45,7 @@ body{
     #body-background-lavender{
         background-color: #191010;
         background-image: url('img/background/bg-lavender-390.png');
-        background-attachment: fixed;
+        background-attachment: scroll;
         background-repeat: no-repeat;
         background-position: top;
 
