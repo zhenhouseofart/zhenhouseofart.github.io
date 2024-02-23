@@ -289,7 +289,7 @@ button{
 
 #bodybox-headline{
     width: 50%;
-    padding: 0 0 5rem 2rem;
+    margin: 0 0 5rem 2rem;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -305,7 +305,7 @@ button{
 
     #bodybox-headline{
         width: auto;
-        padding: 0 3rem 5rem 2rem;
+        margin: 0 3rem 5rem 2rem;
         display: flex;
         flex-direction: column;
         gap: 1.5rem;
@@ -325,7 +325,7 @@ button{
     } 
 
     #bodybox-headline{
-        padding: 0 1rem 5rem;
+        margin: 0 1rem 5rem;
         display: flex;
         flex-direction: column;
         gap: 1.5rem;
