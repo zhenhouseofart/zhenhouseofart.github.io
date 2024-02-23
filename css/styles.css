@@ -786,7 +786,7 @@ button{
     }
 }
 
-#bottom-background{
+.bottom-background{
     background-color: #191010;
     background-image: url('img/background/bg-lavender-1920.png');
     background-attachment: fixed;
@@ -800,7 +800,7 @@ button{
 }
 
 @media (max-width: 768px){
-    #bottom-background{
+    .bottom-background{
         background-color: #191010;
         background-image: url('img/background/bg-lavender-768.png');
         background-attachment: fixed;
@@ -815,7 +815,7 @@ button{
 }
 
 @media (max-width: 480px){
-    #bottom-background{
+    .bottom-background{
         background-color: #191010;
         background-image: url('img/background/bg-lavender-390.png');
         background-attachment: fixed;
