@@ -365,7 +365,7 @@ button{
 
 /* Works */
 #bodybox-works{
-    background-color: #251919;
+    background-color: #191010;
     padding: 4rem;
     display: flex;
     flex-direction: column;
@@ -401,7 +401,7 @@ button{
         height: 40rem;
 
         padding: 3rem 2rem;
-        border: 2px solid #251919;
+        border: 2px solid #191010;
         border-radius: 1.5rem;
     
         display: flex;
@@ -430,7 +430,7 @@ button{
         height: 25rem;
 
         padding: 2rem 2rem;
-        border: 2px solid #251919;
+        border: 2px solid #191010;
         border-radius: 1.5rem;
     
         display: flex;
@@ -455,7 +455,7 @@ button{
         height: 25rem;
 
         padding: 2rem 2rem;
-        border: 2px solid #251919;
+        border: 2px solid #191010;
         border-radius: 1.5rem;
     
         display: flex;
@@ -474,7 +474,7 @@ button{
         height: 20rem;
 
         padding: 2rem 2rem;
-        border: 2px solid #251919;
+        border: 2px solid #191010;
         border-radius: 1.5rem;
     
         display: flex;
