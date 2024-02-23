@@ -325,7 +325,7 @@ button{
     } 
 
     #bodybox-headline{
-        margin: 0 1rem 5rem;
+        padding: 0 1rem 5rem;
         display: flex;
         flex-direction: column;
         gap: 1.5rem;
