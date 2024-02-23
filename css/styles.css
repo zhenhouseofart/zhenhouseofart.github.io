@@ -20,10 +20,10 @@ body{
     background-repeat: no-repeat;
     background-position: top;
 
-    background-size: 100vw 100vh;
     -webkit-background-size: 100vw 100vh;
     -moz-background-size: 100vw 100vh;
     -o-background-size: 100vw 100vh;
+    background-size: 100vw 100vh;
 }
 
 @media (max-width: 768px){
@@ -34,10 +34,10 @@ body{
         background-repeat: no-repeat;
         background-position: top;
 
-        background-size: 100vw 100vh;
         -webkit-background-size: 100vw 100vh;
         -moz-background-size: 100vw 100vh;
         -o-background-size: 100vw 100vh;
+        background-size: 100vw 100vh;
     }
 }
 
@@ -49,14 +49,12 @@ body{
         background-repeat: no-repeat;
         background-position: top;
 
-        background-size: 100vw 100vh;
         -webkit-background-size: 100vw 100vh;
         -moz-background-size: 100vw 100vh;
         -o-background-size: 100vw 100vh;
+        background-size: 100vw 100vh;
     }
 }
-
-
 
 #body-background-mauve{
     background-color: #191010;
@@ -168,11 +166,17 @@ button{
 }
 
 .glow-const{
+    -webkit-filter: drop-shadow(0 0 2rem rgba(178, 111, 246, 0.5));
+    -moz-filter: drop-shadow(0 0 2rem rgba(178, 111, 246, 0.5));
+    -o-filter: drop-shadow(0 0 2rem rgba(178, 111, 246, 0.5));
     filter: drop-shadow(0 0 2rem rgba(178, 111, 246, 0.5));
 }
 
 .glow-small:hover{
     color: #FFF3F3;
+    -webkit-filter: drop-shadow(0 0 0.5rem rgba(255, 243, 243, 0.25));
+    -moz-filter: drop-shadow(0 0 0.5rem rgba(255, 243, 243, 0.25));
+    -o-filter: drop-shadow(0 0 0.5rem rgba(255, 243, 243, 0.25));
     filter: drop-shadow(0 0 0.5rem rgba(255, 243, 243, 0.25));
 }
 
@@ -197,8 +201,13 @@ button{
 
 .btn-headline:hover{
     background-color: rgba(255, 243, 243, 0.2);
-    filter: drop-shadow(0 0 1rem rgba(178, 111, 246, 1));
     transition-duration: 100ms;
+
+    -webkit-filter: drop-shadow(0 0 1rem rgba(178, 111, 246, 1));
+    -moz-filter: drop-shadow(0 0 1rem rgba(178, 111, 246, 1));
+    -o-filter: drop-shadow(0 0 1rem rgba(178, 111, 246, 1));
+    filter: drop-shadow(0 0 1rem rgba(178, 111, 246, 1));
+    
 }
 
 .btn-headline:active{
@@ -214,14 +223,21 @@ button{
 
 #navbar-bar:hover{
     background-color: rgba(255, 243, 243, 0.1);
+    
+    -webkit-filter: drop-shadow(0 0 1rem rgba(178, 111, 246, 0.5));
+    -moz-filter: drop-shadow(0 0 1rem rgba(178, 111, 246, 0.5));
+    -o-filter: drop-shadow(0 0 1rem rgba(178, 111, 246, 0.5));
     filter: drop-shadow(0 0 1rem rgba(178, 111, 246, 0.5));
 }
 
 @media (min-width: 768px){
     #navbar-bar{
         background-color: rgba(255, 243, 243, 0.05);
-        backdrop-filter: blur(8px);
+
         -webkit-backdrop-filter: blur(8px);
+        -moz-backdrop-filter: blur(8px);
+        -o-backdrop-filter: blur(8px);
+        backdrop-filter: blur(8px);
 
         border-bottom: 1px solid rgba(255, 243, 243, 0.05);
         
@@ -249,8 +265,11 @@ button{
 @media (max-width: 768px){
     #navbar-bar{
         background-color: rgba(255, 243, 243, 0.05);
-        backdrop-filter: blur(8px);
+
         -webkit-backdrop-filter: blur(8px);
+        -moz-backdrop-filter: blur(8px);
+        -o-backdrop-filter: blur(8px);
+        backdrop-filter: blur(8px);
 
         border-bottom: 1px solid rgba(255, 243, 243, 0.05);
 
@@ -282,9 +301,16 @@ button{
 
 #bodybox-headpage{
     height: 100vh;
-    width: auto;
     display: flex;
     flex-direction: column-reverse;
+
+    /*
+        background-image: url(img/3d-logo.png);
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-blend-mode: screen;
+    */
 }
 
 #bodybox-headline{
@@ -298,7 +324,6 @@ button{
 @media (max-width: 1280px){
     #bodybox-headpage{
         height: 100vh;
-        width: auto;
         display: flex;
         flex-direction: column-reverse;
     }
@@ -319,7 +344,6 @@ button{
 @media (max-width: 480px){
     #bodybox-headpage{
         height: 95vh;
-        width: auto;
         display: flex;
         flex-direction: column-reverse;
     } 
@@ -340,6 +364,12 @@ button{
     }
 }
 
+@media (max-height: 768px){
+    #bodybox-headpage{
+        background-image: none;
+    }
+}
+
 /* Works */
 #bodybox-works{
     background-color: #251919;
@@ -355,6 +385,9 @@ button{
     background-color: rgba(255, 243, 243, 0.1);
     transition-duration: 500ms;
 
+    -webkit-filter: drop-shadow(0 0 1rem rgba(255, 243, 243, 0.25));
+    -moz-filter: drop-shadow(0 0 1rem rgba(255, 243, 243, 0.25));
+    -o-filter: drop-shadow(0 0 1rem rgba(255, 243, 243, 0.25));
     filter: drop-shadow(0 0 1rem rgba(255, 243, 243, 0.25));
 }
 
@@ -746,6 +779,9 @@ button{
 
 #next-project-box:hover{
     background-color: rgba(255, 243, 243, 0.1);
+    -webkit-filter: drop-shadow(0 0 1rem rgba(178, 111, 246, 0.5));
+    -moz-filter: drop-shadow(0 0 1rem rgba(178, 111, 246, 0.5));
+    -o-filter: drop-shadow(0 0 1rem rgba(178, 111, 246, 0.5));
     filter: drop-shadow(0 0 1rem rgba(178, 111, 246, 0.5));
 }
 
