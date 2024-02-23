@@ -46,7 +46,7 @@ body{
         background-color: #191010;
         background-image: url('img/background/bg-lavender-390.png');
         background-attachment: fixed;
-        background-repeat: no-repeat;
+        background-repeat: repeat-y;
         background-position: top;
 
         -webkit-background-size: 100vw 100vh;
