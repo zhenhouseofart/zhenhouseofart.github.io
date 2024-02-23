@@ -25,7 +25,7 @@ body{
 
 @media (max-width: 768px){
     #body-background-lavender{
-        background-color: #191010;
+        background-color: #000000;
         background-image: url('img/background/bg-lavender-768.png');
         background-attachment: fixed;
         background-repeat: no-repeat;
@@ -35,17 +35,7 @@ body{
     }
 }
 
-@media (max-width: 480px){
-    #body-background-lavender{
-        background-color: #191010;
-        background-image: url('img/background/bg-lavender-390.png');
-        background-attachment: scroll;
-        background-repeat: no-repeat;
-        background-position: center;
 
-        background-size: 100% 100%;
-    }
-}
 
 #body-background-mauve{
     background-color: #191010;
