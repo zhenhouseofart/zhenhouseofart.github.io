@@ -28,8 +28,8 @@ body{
 
 @media (max-width: 768px){
     #body-background-lavender{
-        background-color: red;
-        background-image: url('img/test-image.png');
+        background-color: #191010;
+        background-image: url('img/background/bg-lavender-390.png');
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-position: top;
