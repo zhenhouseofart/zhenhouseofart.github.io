@@ -165,13 +165,6 @@ button{
     letter-spacing: 0.125rem;
 }
 
-.glow-const{
-    -webkit-filter: drop-shadow(0 0 2rem rgba(178, 111, 246, 0.5));
-    -moz-filter: drop-shadow(0 0 2rem rgba(178, 111, 246, 0.5));
-    -o-filter: drop-shadow(0 0 2rem rgba(178, 111, 246, 0.5));
-    filter: drop-shadow(0 0 2rem rgba(178, 111, 246, 0.5));
-}
-
 .glow-small:hover{
     color: #FFF3F3;
     -webkit-filter: drop-shadow(0 0 0.5rem rgba(255, 243, 243, 0.25));
@@ -223,7 +216,7 @@ button{
 
 #navbar-bar:hover{
     background-color: rgba(255, 243, 243, 0.1);
-    
+
     -webkit-filter: drop-shadow(0 0 1rem rgba(178, 111, 246, 0.5));
     -moz-filter: drop-shadow(0 0 1rem rgba(178, 111, 246, 0.5));
     -o-filter: drop-shadow(0 0 1rem rgba(178, 111, 246, 0.5));
