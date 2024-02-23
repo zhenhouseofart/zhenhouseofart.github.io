@@ -280,12 +280,6 @@ button{
         width: auto;
         display: flex;
         flex-direction: column-reverse;
-
-        background-image: url(img/3d-logo.png);
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        background-position: top;
-        background-blend-mode: screen;
     }
 
     #bodybox-headline{
