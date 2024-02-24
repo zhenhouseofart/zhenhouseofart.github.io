@@ -395,7 +395,7 @@ button{
 
 .works-section-card:hover{
     border: 2px solid rgba(255, 243, 243, 0.5);
-    background-color: rgba(255, 243, 243, 0.1);
+    background-color: rgba(255, 243, 243, 0.15);
     transition-duration: 500ms;
 
     -webkit-filter: drop-shadow(0 0 1rem rgba(255, 243, 243, 0.25));
@@ -427,7 +427,7 @@ button{
         display: flex;
         flex-direction: column;
     
-        background-image: url(img/test-image-03.png);
+        background-image: url();
         background-color: rgba(255, 243, 243, 0.05);
         background-repeat: no-repeat;
         background-size: 100% 100%;
@@ -456,7 +456,7 @@ button{
         display: flex;
         flex-direction: column;
     
-        background-image: url(img/test-image-03.png);
+        background-image: url();
         background-color: rgba(255, 243, 243, 0.05);
         background-repeat: no-repeat;
         background-size: 100% 100%;
@@ -481,7 +481,7 @@ button{
         display: flex;
         flex-direction: column;
     
-        background-image: url(img/test-image-03.png);
+        background-image: url();
         background-color: rgba(255, 243, 243, 0.05);
         background-repeat: no-repeat;
         background-size: 100% 100%;
@@ -500,7 +500,7 @@ button{
         display: flex;
         flex-direction: column;
     
-        background-image: url(img/test-image-03.png);
+        background-image: url();
         background-color: rgba(255, 243, 243, 0.05);
         background-repeat: no-repeat;
         background-size: 100% 100%;
@@ -509,6 +509,38 @@ button{
     h2{
         font-size: 2rem;
     }
+}
+
+#thumbnail-aurigami-dapp{
+    background-image: url(img/thumbnail/test.png);
+}
+
+#thumbnail-aurigami-brand{
+    background-image: url(img/thumbnail/test-1200.png);
+}
+
+#thumbnail-souldust{
+    background-image: url(img/thumbnail/test-640-300.png);
+}
+
+#thumbnail-ecoworld{
+    background-image: url(img/thumbnail/thumbnail-ecoworld.png);
+}
+
+#thumbnail-welovefood{
+    background-image: url(img/thumbnail/thumbnail-welovefood.png);
+}
+
+#thumbnail-vort3x{
+    background-image: url(img/thumbnail/thumbnail-vort3x.png);
+}
+
+#thumbnail-aurigami-mascot{
+    background-image: url(img/thumbnail/thumbnail-aurigami-mascot.png);
+}
+
+#thumbnail-house{
+    background-image: url(img/thumbnail/thumbnail-house.png);
 }
 
 /* Gallery */
