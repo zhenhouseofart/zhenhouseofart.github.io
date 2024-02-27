@@ -645,6 +645,20 @@ button{
 }
 
 /* Projects */
+.mascot-sticker-box{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 1rem;
+}
+
+.mascot-sticker{
+    width: 100%;
+    height: auto;
+    justify-self: center;
+}
 
 .project-image{
     width: 100%;
@@ -747,6 +761,15 @@ button{
         display: flex;
         flex-direction: column;
         gap: 0.5rem;
+    }
+
+    .mascot-sticker-box{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 1rem;
     }
 }
 
